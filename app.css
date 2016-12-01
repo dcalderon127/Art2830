@@ -1,0 +1,79 @@
+#sideBar {
+
+    width: 10%;
+    background-color:lightgrey;
+    border: solid 1px black;
+    position: fixed;
+    float: left;
+}
+
+.sbButton {
+
+    height: 15%;
+    background-color: #1f3c0c;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-bottom: solid 1px black;
+    font-family: "Lucida Console";
+}
+
+.sbButton a{
+
+    text-decoration: none;
+}
+.sbButton:hover {
+
+    background-color: #a1dadb;
+}
+
+body {
+    margin: 0;
+    background-color:#381c00;
+}
+
+#contentWrapper{
+    background-color:tan;
+    width: 70%;
+    margin-left: 20%;
+
+}
+
+
+h1, h2, h4, h5 {
+  margin-left: 10%;
+  margin-right:5%;
+  font-family: 'Georgia';
+}
+
+
+.monster {
+  width: 190px;
+  height: 240px;
+  margin: 2% auto;
+  background: url('http://treehouse-code-samples.s3.amazonaws.com/CSS-DD/codepen/blog/monster.png') left center;
+  animation: play .8s steps(10) infinite;
+}
+
+@keyframes play {
+    100% { background-position: -1900px; }
+}
+
+@-webkit-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1900px; }
+}
+
+@-moz-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1900px; }
+}
+
+@-ms-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1900px; }
+}
+
+@-o-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1900px; }
+}
